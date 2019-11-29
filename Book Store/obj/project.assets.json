@@ -12961,11 +12961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\C#\\Book Store\\Book Store\\Book Store.csproj",
+      "projectUniqueName": "D:\\Workspace\\GitHub\\Book-Store.ASP.NET-Core\\Book Store\\Book Store.csproj",
       "projectName": "Book Store",
-      "projectPath": "D:\\Workspace\\C#\\Book Store\\Book Store\\Book Store.csproj",
+      "projectPath": "D:\\Workspace\\GitHub\\Book-Store.ASP.NET-Core\\Book Store\\Book Store.csproj",
       "packagesPath": "C:\\Users\\ned83\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\C#\\Book Store\\Book Store\\obj\\",
+      "outputPath": "D:\\Workspace\\GitHub\\Book-Store.ASP.NET-Core\\Book Store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

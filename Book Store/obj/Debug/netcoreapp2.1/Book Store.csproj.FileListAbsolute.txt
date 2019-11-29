@@ -28,3 +28,33 @@ D:\Workspace\C#\Book Store\Book Store\bin\Debug\netcoreapp2.1\dbsettings.json
 D:\Workspace\C#\Book Store\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AllBooks.cshtml.g.cs
 D:\Workspace\C#\Book Store\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
 D:\Workspace\C#\Book Store\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\dbsettings.json
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Book Store.deps.json
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Book Store.runtimeconfig.json
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Book Store.runtimeconfig.dev.json
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Book Store.dll
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Book Store.pdb
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Book Store.Views.dll
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\bin\Debug\netcoreapp2.1\Book Store.Views.pdb
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.csprojAssemblyReference.cache
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.RazorAssemblyInfo.cache
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.RazorAssemblyInfo.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.AssemblyInfoInputs.cache
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.AssemblyInfo.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.TagHelpers.input.cache
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.TagHelpers.output.cache
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.RazorCoreGenerate.cache
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Books\List.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AllBooks.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.RazorTargetAssemblyInfo.cache
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.RazorTargetAssemblyInfo.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.Views.pdb
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.dll
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.pdb
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.csproj.CopyComplete

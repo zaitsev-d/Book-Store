@@ -12,12 +12,12 @@ namespace BookStore.Data
     {
         public static void Initial(AppDBContent content)
         {
-            if(!content.Category.Any())
+            if (!content.Category.Any())
             {
                 content.Category.AddRange(Categories.Select(c => c.Value));
             }
 
-            if(!content.Book.Any())
+            if (!content.Book.Any())
             {
                 content.AddRange
                 (
@@ -36,7 +36,7 @@ namespace BookStore.Data
                         "Obi - Wan Kenobi, but with a mystical desert recluse known only by the name of Crazy Old Ben.",
                         isFavourite = true,
                         Available = true,
-                        Category = Categories["Fantasy"]
+                        Category = Categories["Fantastic"]
                     },
                     new Book
                     {
@@ -72,7 +72,7 @@ namespace BookStore.Data
                         "The combination of Bryant’s narrative and Bernstein’s photos make The Mamba Mentality an unprecedented look behind the curtain at the career of one of the world’s most celebrated and fascinating athletes.",
                         isFavourite = true,
                         Available = true,
-                        Category = Categories["Fantasy"]
+                        Category = Categories["Biography"]
                     },
                     new Book
                     {
@@ -86,7 +86,7 @@ namespace BookStore.Data
                         "By the end of this book, you’ll have gained expertise in AI programming and developed creative and interactive games.",
                         isFavourite = true,
                         Available = true,
-                        Category = Categories["Fantasy"]
+                        Category = Categories["Technical literature"]
                     },
                     new Book
                     {
@@ -98,7 +98,7 @@ namespace BookStore.Data
                         LongDescription = "",
                         isFavourite = true,
                         Available = true,
-                        Category = Categories["Fantasy"]
+                        Category = Categories["Technical literature"]
                     },
                     new Book
                     {
@@ -113,7 +113,7 @@ namespace BookStore.Data
                         "The story of a man who earned respect by blazing new creative trails in a storytelling form once dismissed as just for kids, Excelsior! is an inspirational story about following one's vision, no matter the odds. Yet it's also the story of how some of the most exciting and memorable characters in the pop - culture universe came to thrill a generation.",
                         isFavourite = true,
                         Available = true,
-                        Category = Categories["Fantasy"]
+                        Category = Categories["Biography"]
                     }
                  );
             }
@@ -123,16 +123,19 @@ namespace BookStore.Data
 
         private static Dictionary<string, Category> category;
 
-        public static Dictionary<string, Category> Categories 
+        public static Dictionary<string, Category> Categories
         {
             get
             {
-                if(category == null)
+                if (category == null)
                 {
                     var list = new Category[]
                     {
                         new Category { Name = "Fantasy", Description = "Bla Bla"},
-                        new Category { Name = "Horrors", Description = "Bla Bla"}
+                        new Category { Name = "Horrors", Description = "Bla Bla"},
+                        new Category { Name = "Fantastic", Description = "Bla Bla"},
+                        new Category { Name = "Technical literature", Description = "Bla Bla"},
+                        new Category { Name = "Biography", Description = "Bla Bla"}
                     };
 
                     category = new Dictionary<string, Category>();

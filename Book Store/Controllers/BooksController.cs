@@ -1,5 +1,6 @@
 ﻿using BookStore.ViewModels;
 using Data.Interfaces;
+using Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,13 +20,52 @@ namespace BookStore.Controllers
             allCategories = booksCategory;
         }
 
-        public ViewResult List()
+        [Route("Books/List")]
+        [Route("Books/List/{category}")]
+        public ViewResult List(string category)
         {
+            string _category = category;
+            IEnumerable<Book> books = null;
+            string currCategory = default;
+
             ViewBag.Title = "Books Page";
-            BooksListViewModel obj = new BooksListViewModel();
-            obj.GetBooks = allBooks.Books;
-            obj.CurrentCategory = "Books";
-            return View(obj);
+
+            if (string.IsNullOrEmpty(category))
+            {
+                books = allBooks.Books.OrderBy(i => i.ID);
+            }
+            else
+            {
+                if (string.Equals("Fantasy", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    books = allBooks.Books.Where(i => i.Category.Name.Equals("Fantasy"));
+                }
+                else if (string.Equals("Horrors", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    books = allBooks.Books.Where(i => i.Category.Name.Equals("Horrors"));
+                }
+                else if (string.Equals("Fantastic", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    books = allBooks.Books.Where(i => i.Category.Name.Equals("Fantastic"));
+                }
+                else if (string.Equals("Technical literature", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    books = allBooks.Books.Where(i => i.Category.Name.Equals("Technical literature"));
+                }
+                else if (string.Equals("Biography", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    books = allBooks.Books.Where(i => i.Category.Name.Equals("Biography"));
+                }
+                currCategory = _category;
+            }
+
+            var bookObj = new BooksListViewModel
+            {
+                GetBooks = books,
+                CurrentCategory = _category
+            };
+
+            return View(bookObj);
         }
     }
 }
