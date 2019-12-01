@@ -58,3 +58,5 @@ D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\B
 D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.dll
 D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.pdb
 D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Book Store.csproj.CopyComplete
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Order\CheckOut.cshtml.g.cs
+D:\Workspace\GitHub\Book-Store.ASP.NET-Core\Book Store\obj\Debug\netcoreapp2.1\Razor\Views\Order\Complete.cshtml.g.cs
